@@ -13,6 +13,10 @@ git_repository: git@github.com:zepouet/my-cycloid-stack.git
 config_git_branch: config
 stack_git_branch: stacks
 
+# Cycloid events configuration
+api_key: ((custom_cyclobot-api-key.key))
+api_url: https://http-api.cycloid.io
+
 # Terraform tfstate storage Configuration
 terraform_storage_container_path: ($ project $)/($ environment $)
 terraform_storage_container_name: accenturelab
