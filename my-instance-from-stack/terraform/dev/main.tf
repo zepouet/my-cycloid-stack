@@ -8,7 +8,7 @@ module "instance" {
   git_code_repo   = "${var.git_code_repo}"
 
   resource_group_name = "${var.azure_resource_group_name}"
-  subnet_id           = "8edccc9d-445b-4cfd-b65b-afc79cd1de6d"
+  subnet_id           = "/subscriptions/67a13c13-2ca3-489f-b136-db03c5205b44/resourceGroups/rg-artistic-condor/providers/Microsoft.Network/virtualNetworks/default"
   azure_location      = "${var.azure_location}"
   instance_type       = "Standard_DS1_v2"
 }
